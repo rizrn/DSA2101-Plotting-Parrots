@@ -62,7 +62,7 @@ git commit -m "This is a commit" # Commits the staged code locally with the mess
 1. On the left sidebar, click the source control icon.
 1. Type in a commit message and click Commit. If possible, your commit message should be about what you added in this commit.
 1. A pop up sometimes will appear, click "Yes".
-[![Add and commit](README-img/Adding%20and%20commiting.png)]
+![Add and commit](README-img/Adding%20and%20commiting.png)
 
 
 # Git workflow
@@ -84,6 +84,13 @@ git switch duo-1
 ```
 You will be working **only** on the branch you and your partner created. 
 
+### Checking the branch you are on
+
+Make sure that this outputs your duo's branch
+```
+git branch
+```
+
 ### Add and commit to this branch
 
 Refer to the segment [here](#add-and-commit-to-this-branch).
@@ -101,4 +108,23 @@ git push origin duo-1
 **GUI**
 
 On github desktop, 
+
+### Pulling your teammates code from github
+
+Sometimes your teammate updates the code while you are working on your code. You can easily get their code while (hopefully) not touching your code using `git fetch` then `git merge`. You might have to do merge conflict resolution, but to avoid losing any progress as a git beginner, you could save your file elsewhere and perform this.
+
+**CLI**
+```
+git fetch
+git merge
+
+---OR---
+git pull
+```
+
+**GUI**
+1. Open Github Desktop
+1. Click "Fetch Origin"
+
+![Fetch origin](README-img/Fetch-origin.png)
 
