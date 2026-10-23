@@ -73,6 +73,8 @@ We will use git branches to make sure that each duo will write code in isolation
 
 ### Initialise the branch for your duo (Only one time)
 
+**CLI**
+
 Creating a branch called duo-1
 ```
 git switch -c "duo-1"
@@ -82,6 +84,21 @@ Switching to branch duo-1
 ```
 git switch duo-1
 ```
+
+**GUI**
+
+Creating a branch called duo-1
+1. On VSCode bottom left, click the branch icon.
+![Git-Branch](README-img/Git-branch.png)
+1. Click +Create new branch.
+![Create-branch](README-img/Create-branch.png)
+
+Switching to branch duo-1
+1. On VSCode bottom left, click the branch icon.
+![Git-Branch](README-img/Git-branch.png)
+1. Click on your branch name. (In this example, its the main branch)
+![Create-branch](README-img/Switch-branch.png)
+
 You will be working **only** on the branch you and your partner created. 
 
 ### Checking the branch you are on
