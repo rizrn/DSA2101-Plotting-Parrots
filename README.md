@@ -124,7 +124,9 @@ git push origin duo-1
 
 **GUI**
 
-On github desktop, 
+On github desktop, click "Push Origin"
+
+![Push Origin](README-img/Push-origin.png)
 
 ### Pulling your teammates code from github
 
