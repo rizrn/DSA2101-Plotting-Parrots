@@ -24,7 +24,7 @@ source venv-dsa2101/bin/activate
 
 3. Install the packages
 ```
-python -m pip install --upgrade pip
+pip install -r requirements.txt
 
 # Check if installed correctly
 python --version
